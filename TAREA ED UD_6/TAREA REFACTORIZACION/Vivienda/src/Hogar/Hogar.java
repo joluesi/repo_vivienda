@@ -13,9 +13,10 @@ public class Hogar
     {       
         
         Vivienda casa1 = new Vivienda(120000, 4, 135, true, "A estrenar", "Pepelu Linfosite");
-        
+        Vivienda casa2 = new Vivienda(190000, 3, 110, false, "Usada", "Pepito Grillo");
  
         imprimirVivienda(casa1);
+        imprimirVivienda(casa2);
            
     }
 
